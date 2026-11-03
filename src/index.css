@@ -1,0 +1,45 @@
+
+
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, sans-serif;
+  color: #171717;
+  background: #f4f3ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+::selection {
+  background: #171717;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
